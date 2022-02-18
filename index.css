@@ -20,8 +20,7 @@
     background-color: rgb(159, 197, 255);
     
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: row;
 }
 
 .cell{
